@@ -4,8 +4,8 @@ import { Button, Input } from 'semantic-ui-react'
 const GHSearch = () => {
   return (
     <>
-      <Input type="text" name="search" placeholder="Input GH username" />
-      <Button name="search">Search</Button>
+      <Input data-cy="search-input" type="text" name="search" placeholder="Input GH username" />
+      <Button data-cy="search-button" name="search">Search</Button>
     </>
   )
 }
@@ -13,4 +13,5 @@ const GHSearch = () => {
 export default GHSearch
 
 // whatever is passed in the search query must be passed as a param
-// and a onClick event should pass that to the searchfunction
+// and a onClick/onChange event should pass that to the searchfunction
+//the input is logged in event.target.value

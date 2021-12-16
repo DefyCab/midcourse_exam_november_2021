@@ -1,6 +1,6 @@
 describe('A user can search for a user on GitHub', () => {
   beforeEach(() => {
-    cy.intercept('GET', '**api.github.com/search/users?q=Barack', {
+    cy.intercept('GET', '**api.github.com/search/users**', {
       fixture: 'userSearch',
     }).as('userIndex')
     cy.visit('/')
