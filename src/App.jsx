@@ -24,6 +24,7 @@ const App = () => {
       </section>
       <section name="main">
         <GHSearch />
+        <li data-cy="search-return">{searchList}</li>
       </section>
     </Container>
   )

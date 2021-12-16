@@ -3,7 +3,9 @@ import { Header } from 'semantic-ui-react'
 
 const Title = () => {
   return (
-    <Header data-cy="title-header" as="h1">GitHub Search engine</Header>
+    <Header data-cy="title-header" as="h1">
+      GitHub Search engine
+    </Header>
   )
 }
 
