@@ -18,7 +18,3 @@ const GHSearch = () => {
 }
 
 export default GHSearch
-
-// whatever is passed in the search query must be passed as a param
-// and a onClick/onChange event should pass that to the searchfunction
-//the input is logged in event.target.value
